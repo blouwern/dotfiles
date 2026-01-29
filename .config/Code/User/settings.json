@@ -1,0 +1,43 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "/opt/geant4/11.3.2/include/**",
+        "/opt/root/v6.36.00/include/**",
+        "/usr/lib/x86_64-linux-gnu/openmpi/include/**"
+    ],
+    "editor.allowVariableFontsInAccessibilityMode": true,
+    "editor.fontFamily": "'Iosevka extended'",
+    "editor.guides.bracketPairs": true,
+    "[cmake]": {
+        "editor.defaultFormatter": "KylinIdeTeam.cmake-intellisence"
+    },
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "editor.minimap.enabled": false,
+    "notebook.lineNumbers": "on",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "terminal.integrated.initialHint": false,
+    "debug.console.fontFamily": "iosevka",
+    "scm.inputFontFamily": "iosevka",
+    "terminal.integrated.fontFamily": "'iosevka'",
+    "notebook.markup.fontFamily": "iosevka",
+    "chat.editor.fontFamily": "iosevka",
+    "gitlens.currentLine.fontFamily": "iosevka",
+    "gitlens.blame.fontFamily": "iosevka",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "workbench.editor.enablePreview": false
+}
