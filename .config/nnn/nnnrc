@@ -1,0 +1,10 @@
+source $HOME/.config/nnn/utils/quitcd
+source $HOME/.config/nnn/exports
+
+export NNN_FIFO=/tmp/nnn.fifo 
+
+# nnn alias
+alias n3='nnn_qcd'
+alias nnn='nnn_qcd'
+alias nb='nnn_qcd -b'
+alias ncd='nnn_qcd'

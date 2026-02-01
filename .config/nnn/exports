@@ -1,0 +1,10 @@
+export NNN_BMS="h:$HOME;w:$HOME/workspace;d:$HOME/Downloads/"
+
+NNN_PLUG_INTERNAL="o:fzopen;f:finder;p:preview-tui;c:fzcd"
+NNN_PLUG_FZUTIL="h:fzhist;k:pskill"
+NNN_PLUG_ETC="w:wallpaper"
+NNN_PLUG_CMD="G:!git log"
+export NNN_PLUG="$NNN_PLUG_INTERNAL;$NNN_PLUG_FZUTIL;$NNN_PLUG_ETC;$NNN_PLUG_CMD"
+
+# nuke(plugin) path is only the user's mannually download-it path
+export NNN_OPENER="$HOME/.config/nnn/plugins/nuke"
