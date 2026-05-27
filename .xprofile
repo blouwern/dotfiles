@@ -1,0 +1,7 @@
+cat >> ~/.xprofile << 'EOF'
+
+# Three-way key swap (left side only): Caps -> Left Shift, Left Shift -> Left Ctrl, Left Ctrl -> Caps
+if [ -f "$HOME/.Xmodmap_threeway" ]; then
+    xmodmap "$HOME/.Xmodmap_threeway"
+fi
+EOF
