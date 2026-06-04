@@ -1,0 +1,3 @@
+[submodule ".config/deepseek"]
+	path = .config/deepseek
+	url = git@github.com:blouwern/config-deepseek.git
