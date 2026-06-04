@@ -101,6 +101,8 @@ alias fzf-tr='tree -afR /home/$USER/ | fzf'
 # source \'.bashrc\' alias
 alias freshrc='source ~/.bashrc'
 
+alias i3cfg='nano ~/.config/i3/config'
+
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -121,9 +123,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-fastfetch --logo-color-1 blue --logo-color-2 magenta | lolcat
+# fastfetch --logo-color-1 blue --logo-color-2 magenta | lolcat
+fastfetch
 source /opt/geant4/11.3.2/bin/geant4.sh
-source /opt/root/v6.36.00/bin/thisroot.sh
+source /opt/root/6.40.00/bin/thisroot.sh
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin

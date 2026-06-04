@@ -132,7 +132,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # user defined i3lock shortcut
-bindsym $mod+x exec i3lock-fancy
+#bindsym $mod+x exec i3lock-fancy
 bindsym $mod+Shift+x exec i3lock-fancy
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -141,49 +141,49 @@ bar {
         status_command i3status
 }
 
-# restore workspaces
-set $i3_resurrect i3-resurrect
-
-# Save workspace mode.
-mode "save" {
-  bindsym 1 exec $i3_resurrect save -w 1
-  bindsym 2 exec $i3_resurrect save -w 2
-  bindsym 3 exec $i3_resurrect save -w 3
-  bindsym 4 exec $i3_resurrect save -w 4
-  bindsym 5 exec $i3_resurrect save -w 5
-  bindsym 6 exec $i3_resurrect save -w 6
-  bindsym 7 exec $i3_resurrect save -w 7
-  bindsym 8 exec $i3_resurrect save -w 8
-  bindsym 9 exec $i3_resurrect save -w 9
-  bindsym 0 exec $i3_resurrect save -w 0
-
-  # Back to normal: Enter, Escape, or s
-  bindsym Return mode "default"
-  bindsym Escape mode "default"
-  bindsym s mode "default"
-  bindsym $mod+s mode "default"
-}
-
-bindsym $alt+s mode "save"
-
-# Restore workspace mode.
-mode "restore" {
-  bindsym 1 exec $i3_resurrect restore -w 1
-  bindsym 2 exec $i3_resurrect restore -w 2
-  bindsym 3 exec $i3_resurrect restore -w 3
-  bindsym 4 exec $i3_resurrect restore -w 4
-  bindsym 5 exec $i3_resurrect restore -w 5
-  bindsym 6 exec $i3_resurrect restore -w 6
-  bindsym 7 exec $i3_resurrect restore -w 7
-  bindsym 8 exec $i3_resurrect restore -w 8
-  bindsym 9 exec $i3_resurrect restore -w 9
-  bindsym 0 exec $i3_resurrect restore -w 0
-
-  # Back to normal: Enter, Escape, or n
-  bindsym Return mode "default"
-  bindsym Escape mode "default"
-  bindsym n mode "default"
-  bindsym $mod+n mode "default"
-}
-
-bindsym $alt+r mode "restore"
+## restore workspaces
+#set $i3_resurrect i3-resurrect
+#
+## Save workspace mode.
+#mode "save" {
+#  bindsym 1 exec $i3_resurrect save -w 1
+#  bindsym 2 exec $i3_resurrect save -w 2
+#  bindsym 3 exec $i3_resurrect save -w 3
+#  bindsym 4 exec $i3_resurrect save -w 4
+#  bindsym 5 exec $i3_resurrect save -w 5
+#  bindsym 6 exec $i3_resurrect save -w 6
+#  bindsym 7 exec $i3_resurrect save -w 7
+#  bindsym 8 exec $i3_resurrect save -w 8
+#  bindsym 9 exec $i3_resurrect save -w 9
+#  bindsym 0 exec $i3_resurrect save -w 0
+#
+#  # Back to normal: Enter, Escape, or s
+#  bindsym Return mode "default"
+#  bindsym Escape mode "default"
+#  bindsym s mode "default"
+#  bindsym $mod+s mode "default"
+#}
+#
+#bindsym $alt+s mode "save"
+#
+## Restore workspace mode.
+#mode "restore" {
+#  bindsym 1 exec $i3_resurrect restore -w 1
+#  bindsym 2 exec $i3_resurrect restore -w 2
+#  bindsym 3 exec $i3_resurrect restore -w 3
+#  bindsym 4 exec $i3_resurrect restore -w 4
+#  bindsym 5 exec $i3_resurrect restore -w 5
+#  bindsym 6 exec $i3_resurrect restore -w 6
+#  bindsym 7 exec $i3_resurrect restore -w 7
+#  bindsym 8 exec $i3_resurrect restore -w 8
+#  bindsym 9 exec $i3_resurrect restore -w 9
+#  bindsym 0 exec $i3_resurrect restore -w 0
+#
+#  # Back to normal: Enter, Escape, or n
+#  bindsym Return mode "default"
+#  bindsym Escape mode "default"
+#  bindsym n mode "default"
+#  bindsym $mod+n mode "default"
+#}
+#
+#bindsym $alt+r mode "restore"
