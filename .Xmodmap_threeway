@@ -1,0 +1,19 @@
+! Three-way key swap (left side only): Caps -> Left Shift, Left Shift -> Left Ctrl, Left Ctrl -> Caps
+! Right Shift and Right Ctrl remain unchanged
+
+! Remove existing modifier bindings
+remove Lock = Caps_Lock
+remove Shift = Shift_L Shift_R
+remove Control = Control_L Control_R
+
+! Remap left side keys
+keycode 66 = Shift_L
+keycode 50 = Control_L
+keycode 37 = Caps_Lock
+
+! Right side keys (keycode 62 = Right Shift, keycode 105 = Right Ctrl) keep their default mappings
+
+! Re-add modifier bindings
+add Lock = Caps_Lock
+add Shift = Shift_L Shift_R
+add Control = Control_L Control_R
